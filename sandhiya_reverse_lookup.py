@@ -6,4 +6,4 @@ scores = {
 }
 input_score=int(input("Enter score: "))
 data=dict(zip(scores.values(),scores.keys()))
-print(data.get(input_score))
+print(data.get(input_score,"Not found"))
